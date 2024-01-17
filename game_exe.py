@@ -55,7 +55,7 @@ n_questions = len(questions_dick)                                           # nu
 # introduction to the program
 print("Please enter your name: ")
 player_name = input()
-print(f"\n +++ Welcome to Kern- / Teilchenphysik, {player_name}, I want to play a game with you. We have a total of {n_questions} questions to answer for you! +++ \n\n")
+print(f"\n +++ Welcome to Kern- / Teilchenphysik, {player_name}. We have a total of {n_questions} questions to answer for you! +++ \n\n")
 
 # iterating through all question until an error is made
 i_questions = 0

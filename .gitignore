@@ -7,7 +7,7 @@
 
 # unignore program file(s)
 !*.py
-!*.txt
+#!*.txt
 
 # unignore gitignore
 !.gitignore

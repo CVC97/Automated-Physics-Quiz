@@ -1,5 +1,6 @@
 # dictionaries of questions with 4 answers each (the correct one is always the first)
 kt_questions = {
+    "Ist der Entdecker des Netrinos Fan eines Fußball-Zweitligisten, dann unterstützt der...": ("Wolfgang Pauli", "Enrico Fermi", "Richard Feynman", "Peter Higgs"),
     "Nukleone und Nuklide: Was zeichnet ein Isotop aus?": ("gleiche Protonenzahl Z", "gleiche Massezahl A", "gleiche Neutronenzahl N", "gleicher Bizepsumfang"),
     "Nukleone und Nuklide: Was zeichnet ein Isoton aus?": ("gleiche Neutronenzahl N", "gleiche Protonenzahl Z", "gleiche Massezahl A", "gleicher Bizepsumfang"),
     "Nukleone und Nuklide: Was zeichnet ein Isobar aus?": ("gleiche Massezahl A", "gleiche Protonenzahl Z", "gleiche Neutronenzahl N", "gleicher Bizepsumfang"),

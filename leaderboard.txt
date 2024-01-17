@@ -12,3 +12,4 @@
 10,Quanten-Carl (out of 19 questions)
 0,Mr. Moron (out of 19 questions)
 0,Mr. Moron II (out of 19 questions)
+2,Nicklas Bendtner (19)
