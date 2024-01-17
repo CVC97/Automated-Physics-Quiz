@@ -1,11 +1,5 @@
 import random
-
-
-# dictionary of questions with 4 answers each (the correct one is always the first)
-questions_dick = {
-    "Tröpfchenmodell: Bei welcher Energie hat die Bindungsenergie pro Nukleon laut Bethe-Weizsäcker-Massenformel ihr Maximum?": ("8,7 MeV", "8,7 GeV", "93.000 MeV", "7.8 GeV"),
-    "Tröpfchenmodell: Wie lautet der Beitrag des Oberflächenterms zur Bindungsenergie Bethe-Weizsäcker-Massenformel?": ("-a_O * A^(2/3)", "-a_O * A^(-2/3)", "-a_O * A^(1/3)", "-a_O * A^(-1/3)"), 
-}
+from questions import *
 
 
 # function to generate the 4 answer strings in random order with correct answer as return value
@@ -21,10 +15,21 @@ def get_answers(answer_tuple):
     return correct_answer_letter
 
 
-# a list of all possible questions to chose from
-questions_list = list(questions_dick.items())
+# enter name and score to the leaderboard
+def add_leaderboard_entry(player_name, score):
+    return
+
+
+# prints out leaderboard
+def get_leaderboard():
+    return
+
+
+# processing questions for use in program
+questions_dick = kt_questions                                               # chosing the question set
+questions_list = list(questions_dick.items())                               # adding the questions + their answers to a list and shuffling it for randomization
 random.shuffle(questions_list)
-n_questions = len(questions_dick)
+n_questions = len(questions_dick)                                           # number of available questions
 
 
 # +++ program start +++
@@ -42,7 +47,7 @@ while (i_questions < n_questions):
     print(f"Question ({i_questions+1}/{n_questions}): {questions_list_entry[0]}")
     correct_answer_letter = get_answers(questions_list_entry[1])
     print("\nPlease enter your answer ('a', 'b', 'c', 'd') or quit ('q'):")
-    
+
     # enter answer
     command = input()
     if command == '-q' or command == 'quit' or command == 'q':
