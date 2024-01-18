@@ -20,7 +20,7 @@ def get_answers(answer_tuple):
 # enter name and score to the leaderboard
 def add_leaderboard_entry(player_name, score):
     with open("leaderboard.txt", "a") as leaderboard:
-        leaderboard.write(f"{score[0]},{player_name} ({score[1]})\n")
+        leaderboard.write(f"{score[0]},{player_name} (from {score[1]})\n")
     return
 
 
@@ -72,9 +72,9 @@ while (i_questions < n_questions):
         print(f"\n +++ You are a quitter, you scored {i_questions} out of {n_questions}. +++ \n")
         break
     elif command == correct_answer_letter:
-        print(f"\n +++ RICHTIG! {random.shuffle(random_stoll)[0]} Du hast {i_questions} aus {n_questions} Fragen richtig beantwortet. +++ \n")
+        print(f"\n +++ RICHTIG! {random.choice(random_stoll)} Du hast {i_questions+1} aus {n_questions} Fragen richtig beantwortet. +++ \n")
     else:
-        print(f"\n +++ FALSE! You loser, {correct_answer_letter.upper()} was correct. You scored {i_questions} out of {n_questions} questions. +++ \n")
+        print(f"\n +++ FALSE! You loser, ({correct_answer_letter.upper()}) was correct. You scored {i_questions} out of {n_questions} questions. +++ \n")
         break
     # initiate next iteration step
     i_questions += 1
