@@ -29,12 +29,15 @@ def print_leaderboard():
     leaderboard = np.loadtxt('./leaderboard.txt', delimiter = ',', dtype = str)
     dick_of_leaders = {}
     # add players to the dictionary of leaders
-    for entry in leaderboard:
-        key_number = int(entry[0])
-        if key_number in dick_of_leaders.keys():                            # append player to his score entry
-            dick_of_leaders[key_number] = dick_of_leaders[key_number] + ', ' +  entry[1]
-        else:                                                               # add a players score entry
-            dick_of_leaders[key_number] = entry[1]
+    if (leaderboard.ndim == 1):                                             # only one entry / leaderboard array has only one dimension
+        dick_of_leaders[int(leaderboard[0])] = leaderboard[1]
+    else:                                                                   # leaderboard array has more than 1 entry
+        for entry in leaderboard:
+            key_number = int(entry[0])
+            if key_number in dick_of_leaders.keys():                        # append player to his score entry
+                dick_of_leaders[key_number] = dick_of_leaders[key_number] + ',\n\t' +  entry[1]
+            else:                                                           # add a players score entry
+                dick_of_leaders[key_number] = entry[1]
     # handle and print out the dictionary
     dick_of_leaders_reverse_sorted = dict(reversed(sorted(dick_of_leaders.items())))
     print("Here are the current leaders (number of correct answers, plus names with amount of available questions in brackets):")
