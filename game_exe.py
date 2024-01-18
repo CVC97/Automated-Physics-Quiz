@@ -1,6 +1,7 @@
 import random
 import numpy as np
 from questions import *
+from comments import *
 
 
 # function to generate the 4 answer strings in random order with correct answer as return value
@@ -71,9 +72,9 @@ while (i_questions < n_questions):
         print(f"\n +++ You are a quitter, you scored {i_questions} out of {n_questions}. +++ \n")
         break
     elif command == correct_answer_letter:
-        print(f"\n +++ CORRECT! You are at {i_questions+1} out of {n_questions}. +++ \n")
+        print(f"\n +++ RICHTIG! {random.shuffle(random_stoll)[0]} Du hast {i_questions} aus {n_questions} Fragen richtig beantwortet. +++ \n")
     else:
-        print(f"\n +++ FALSE! You are a loser, {correct_answer_letter.upper()} was correct. You scored {i_questions} out of {n_questions}. +++ \n")
+        print(f"\n +++ FALSE! You loser, {correct_answer_letter.upper()} was correct. You scored {i_questions} out of {n_questions} questions. +++ \n")
         break
     # initiate next iteration step
     i_questions += 1
