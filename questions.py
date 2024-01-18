@@ -27,5 +27,5 @@ kt_questions = {
     "Mehrstufige radioaktive Zerfälle: Wie lautet die Differentialgleichung für N_B für den 2-stufigen Zerfall 'A -lambda_1 -> B - lambda_2 -> C'?": ("dN_B/dt = lambda_1*N_A - lambda_2*N_B", "dN_B/dt = lambda_1*N_B - lambda_2*N_A", "dN_B/dt = lambda_1*N_B - lambda_2*N_C", "dN_B/dt = lambda_1*N_C - lambda_2*N_B"),
     "Kernspaltung und Kettenreaktionen: Welches Uran wird in Kernreaktoren benötigt?": ("U-235", "U-238", "U-232", "jedes Uranisotop ist leicht spaltbar und kann verwendet werden"),
     "Kernspaltung und Kettenreaktionen: Wie groß ist der Anteil des Uranisotops U-238 in natürlichem Uran?": ("99,3 %", "93 %", "97 %", "3 %"),
-    "Kernspaltung und Kettenreaktionen: Wie groß ist der Anteil des Uranisotops U-235 in typischerweise in angereichertem Uran in Kernreaktoren?": ("3 %", "15 %", "50 %", "97 %"),
+    "Kernspaltung und Kettenreaktionen: Wie groß ist typischerweise der Anteil des Uranisotops U-235 in dem angereichertem Uran in Kernreaktoren?": ("3 %", "15 %", "50 %", "97 %"),
 }

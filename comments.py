@@ -55,7 +55,7 @@ random_stoll = [
     "Physik ist Magie durch wollen!",
     "Meine Name ist Stoll, ich bin promovierter Naturwissenschaftler!",
     "Ich befasse mich mit freier Energie!",
-    "Implosionstechnologie!!",
+    "Implosionstechnologie!",
     "Biologie ist Physik!",
     "Mit Kraft!",
     "Das ist kein Science Fiction!",

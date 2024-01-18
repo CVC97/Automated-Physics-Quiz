@@ -1,1 +1,1 @@
-Little skript that quizzes you on certain physics topics, primarly Nuclear and Particle Physics.
+Little script that quizzes you on certain physics topics, primarly Nuclear and Particle Physics. It is highly recommended to regularly pull the repository due to frequent updates on the range of questions as well as the implementation of new features.
