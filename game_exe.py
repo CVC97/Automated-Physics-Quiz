@@ -20,7 +20,7 @@ def get_answers(answer_tuple):
 # enter name and score to the leaderboard
 def add_leaderboard_entry(player_name, score):
     with open("leaderboard.txt", "a") as leaderboard:
-        leaderboard.write(f"{score[0]},{player_name} (from {score[1]})\n")
+        leaderboard.write(f"{score[0]},{player_name} ({score[0]}/{score[1]})\n")
     return
 
 
