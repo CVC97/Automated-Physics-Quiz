@@ -9,5 +9,8 @@
 !*.py
 #!*.txt
 
+# unignore README
+!README.md
+
 # unignore gitignore
 !.gitignore
