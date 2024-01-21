@@ -29,3 +29,8 @@ kt_questions = {
     "Kernspaltung und Kettenreaktionen: Wie groß ist der Anteil des Uranisotops U-238 in natürlichem Uran?": ("99,3 %", "93 %", "97 %", "3 %"),
     "Kernspaltung und Kettenreaktionen: Wie groß ist typischerweise der Anteil des Uranisotops U-235 in dem angereichertem Uran in Kernreaktoren?": ("3 %", "15 %", "50 %", "97 %"),
 }
+
+
+fk_questions = {
+    "Ein Festkörper ist ...": ("fest", "weich", "flüssig", "gasförmig"),
+}

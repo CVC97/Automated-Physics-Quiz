@@ -4,6 +4,22 @@ from questions import *
 from comments import *
 
 
+# covered topics
+question_sets = {
+    "Kern- / Teilchenphysik": kt_questions, 
+    "Festkörperphysik": fk_questions,
+}
+
+
+# gets the key of the selected questions set
+def get_question_set(question_sets):
+    list_of_question_sets = list(question_sets)
+    for i, question_set in enumerate(list_of_question_sets):
+        print(f"   ({i})\t{question_set}")
+    n_question_set = int(input())
+    return list_of_question_sets[n_question_set]
+
+
 # function to generate the 4 answer strings in random order with correct answer as return value
 def get_answers(answer_tuple):
     which_answer = [0, 1, 2, 3]                                             # list of 0, 1, 2, 3 to later chose answer
@@ -42,24 +58,26 @@ def print_leaderboard():
     dick_of_leaders_reverse_sorted = dict(reversed(sorted(dick_of_leaders.items())))
     print("Here are the current leaders (number of correct answers, plus names with amount of available questions in brackets):")
     for key, value in dick_of_leaders_reverse_sorted.items():
-        print(f"   {key}\t{value}")
+        print(f"   ({key})\t{value}")
     print()
     return
 
 
-# processing questions for use in program
-questions_dick = kt_questions                                               # chosing the question set
+# +++ program start +++
+
+# entering name and topic
+print("Please enter your name: ")
+player_name = input()                                                       # chosing name                         
+
+print("\nPlease chose your desired question set:")
+question_set = get_question_set(question_sets)                              # chosing the question set
+
+# processing question set for use in program
+questions_dick = question_sets[question_set]                                # getting the dictionary from its above returned value
 questions_list = list(questions_dick.items())                               # adding the questions + their answers to a list and shuffling it for randomization
 random.shuffle(questions_list)
 n_questions = len(questions_dick)                                           # number of available questions
-
-
-# +++ program start +++
-
-# introduction to the program
-print("Please enter your name: ")
-player_name = input()
-print(f"\n +++ Welcome to Kern- / Teilchenphysik, {player_name}. We have a total of {n_questions} questions to answer for you! +++ \n\n")
+print(f"\n +++ Welcome to {question_set}, {player_name}. We have a total of {n_questions} questions to answer for you! +++ \n\n")
 
 # iterating through all question until an error is made
 i_questions = 0
