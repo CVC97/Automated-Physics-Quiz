@@ -28,6 +28,16 @@ kt_questions = {
     "Kernspaltung und Kettenreaktionen: Welches Uran wird in Kernreaktoren benötigt?": ("U-235", "U-238", "U-232", "jedes Uranisotop ist leicht spaltbar und kann verwendet werden"),
     "Kernspaltung und Kettenreaktionen: Wie groß ist der Anteil des Uranisotops U-238 in natürlichem Uran?": ("99,3 %", "93 %", "97 %", "3 %"),
     "Kernspaltung und Kettenreaktionen: Wie groß ist typischerweise der Anteil des Uranisotops U-235 in dem angereichertem Uran in Kernreaktoren?": ("3 %", "15 %", "50 %", "97 %"),
+    "Kernspaltung und Kettenreaktionen: Was macht leichtes Wasser in einem Reaktor?": ("es nimmt Neutronen auf und unterbindet damit die Kernspaltung", "es dient als Moderator und bremst Neutronen ab, eine Kettenreaktion findet statt", "es reagiert mit Uran zu Uranhydroxid", "es ist ein selbst-regulierender Moderator mit Multiplikationsfaktor k = 1, keine Steuerstäbe werden benötigt"),
+    "Relativitätstheorie: Was gilt für die Länge des Differenzvierervektors dl^2 wenn der Abstand zweier Ereignisse x_1 und x_2 als 'zeitartig' bezeichnet wird?": ("dl^2 > 0", "dl^2 < 0", "dl^2 = 0", "dl^2 ist immer die Masse"),
+    "Relativitätstheorie: Was gilt für die Länge des Differenzvierervektors dl^2, wenn der Abstand zweier Ereignisse x_1 und x_2 als 'lichtartig' bezeichnet wird?": ("dl^2 = 0", "dl^2 < 0", "dl^2 > 0", "s^2 ist immer die Masse"),
+    "Relativitätstheorie: Wie wird der Abstand zweier Ereignisse x_1 und x_2 bezeichnet wenn für die Länge des Differenzvektors dx^2 < 0 gilt?": ("raumartig", "zeitartig", "lichtartig", "die Länge eines Differenzvektors ist immer dx^2 = 0"),
+    "Relativitätstheorie: Wie lautet der relativistische Satz des Pythagoras?": ("p^2 = E^2 - Vec(p)^2", "p^2 = E^2 + Vec(p)^2", "p^2 = Vec(p)^2 - E^2", "-p^2 = E^2 + Vec(p)^2"),
+    "Relativitätstheorie: Wie groß ist der Betrag eines Viererimpulses p^2?": ("es ist immer die Masse m^2", "immer 0", "es ist immer die Energie E^2", "es ist das Betragsquadrat des Dreierimpulses Vec(p)^2"),
+    "Mandelstam-Variablen: Was gilt für die Mandelstamvariable s?": ("s = (p_1 + p_2)^2 = (p_3 + p_4)^2", "s^2 = (p_1 + p_2)^2 = (p_3 + p_4)^2", "s = (p_1 - p_2)^2 = (p_3 - p_4)^2", "s^2 = (p_1 - p_2)^2 = (p_3 - p_4)^2"),
+    "Mandelstam-Variablen: Was gilt für die Mandelstamvariable t?": ("t = (p_1 - p_3)^2 = (p_2 - p_4)^2", "t^2 = (p_1 - p_3)^2 = (p_2 - p_4)^2", "t = (p_1 - p_2)^2 = (p_3 - p_4)^2", "t^2 = (p_1 - p_2)^2 = (p_3 - p_4)^2"),
+    "Mandelstam-Variablen: Was trifft auf einen Prozess im t-Kanal zu?": ("raumartig", "zeitartig", "lichtartig", "es ist nicht klar definiert"),
+    "Mandestam-Variablen: Wie lautet die Energie q^2 des vermittelnden Photons eines Prozesses im u-Kanal mit Mandelstam-Variable u zu?": ("q^2 = u", "q^2 = u^2", "q^2 = sqrt(u)", "q = u^2"),
 }
 
 
