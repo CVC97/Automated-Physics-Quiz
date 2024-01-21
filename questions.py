@@ -37,7 +37,7 @@ kt_questions = {
     "Mandelstam-Variablen: Was gilt für die Mandelstamvariable s?": ("s = (p_1 + p_2)^2 = (p_3 + p_4)^2", "s^2 = (p_1 + p_2)^2 = (p_3 + p_4)^2", "s = (p_1 - p_2)^2 = (p_3 - p_4)^2", "s^2 = (p_1 - p_2)^2 = (p_3 - p_4)^2"),
     "Mandelstam-Variablen: Was gilt für die Mandelstamvariable t?": ("t = (p_1 - p_3)^2 = (p_2 - p_4)^2", "t^2 = (p_1 - p_3)^2 = (p_2 - p_4)^2", "t = (p_1 - p_2)^2 = (p_3 - p_4)^2", "t^2 = (p_1 - p_2)^2 = (p_3 - p_4)^2"),
     "Mandelstam-Variablen: Was trifft auf einen Prozess im t-Kanal zu?": ("raumartig", "zeitartig", "lichtartig", "es ist nicht klar definiert"),
-    "Mandestam-Variablen: Wie lautet die Energie q^2 des vermittelnden Photons eines Prozesses im u-Kanal mit Mandelstam-Variable u zu?": ("q^2 = u", "q^2 = u^2", "q^2 = sqrt(u)", "q = u^2"),
+    "Mandestam-Variablen: Was gilt für das Quadrat des Viererimpulses q^2 des vermittelnden Photons eines Prozesses im u-Kanal mit Mandelstam-Variable u zu?": ("q^2 = u", "q^2 = u^2", "q^2 = sqrt(u)", "q = u^2"),
 }
 
 
