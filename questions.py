@@ -37,7 +37,14 @@ kt_questions = {
     "Mandelstam-Variablen: Was gilt für die Mandelstamvariable s?": ("s = (p_1 + p_2)^2 = (p_3 + p_4)^2", "s^2 = (p_1 + p_2)^2 = (p_3 + p_4)^2", "s = (p_1 - p_2)^2 = (p_3 - p_4)^2", "s^2 = (p_1 - p_2)^2 = (p_3 - p_4)^2"),
     "Mandelstam-Variablen: Was gilt für die Mandelstamvariable t?": ("t = (p_1 - p_3)^2 = (p_2 - p_4)^2", "t^2 = (p_1 - p_3)^2 = (p_2 - p_4)^2", "t = (p_1 - p_2)^2 = (p_3 - p_4)^2", "t^2 = (p_1 - p_2)^2 = (p_3 - p_4)^2"),
     "Mandelstam-Variablen: Was trifft auf einen Prozess im t-Kanal zu?": ("raumartig", "zeitartig", "lichtartig", "es ist nicht klar definiert"),
-    "Mandestam-Variablen: Was gilt für das Quadrat des Viererimpulses q^2 des vermittelnden Photons eines Prozesses im u-Kanal mit Mandelstam-Variable u zu?": ("q^2 = u", "q^2 = u^2", "q^2 = sqrt(u)", "q = u^2"),
+    "Mandelstam-Variablen: Was gilt für das Quadrat des Viererimpulses q^2 des vermittelnden Photons eines Prozesses im u-Kanal mit Mandelstam-Variable u zu?": ("q^2 = u", "q^2 = u^2", "q^2 = sqrt(u)", "q = u^2"),
+    "Mandelstam-Variablen: Was ist gleich der Summe der drei Mandelstamvariablen s + t + u?": ("s + t + u = m_1^2 + m_2^2 + m_3^2 + m_4^2", "s + t + u = 2*m_1^2 + 2*m_2^2", "s + t + u = 4*m_1^2 - 4*m_3^2", "s + t + u = 4*m_1^2"), 
+    "Mandelstam-Variablen: Was gilt in der Hochenergie-Näherung?": ("E^2 = |Vec(p)|^2", "E^2 = m^2", "m^2 = |Vec(p)|^2", "m^2 = |Vec(p)|^2 - E^2"),
+    "Fixed-Target Experiment: Was trifft auf den totalen Energie-Impuls-Vierervektor im Fixed-Target Experiment zu?": ("variant und erhalten", "invariant und erhalten", "variant und nicht erhalten", "invariant und nicht erhalten"),
+    "Fixed-Target Experiment: Was trifft auf die Vektorsumme der Geschwindigkeiten im Fixed-Target Experiment zu?": ("variant und nicht erhalten", "invariant und erhalten", "variant und erhalten", "invariant und nicht erhalten"),
+    "Fixed-Target Experiment: Was trifft auf die Masse des Gesamtsystems im Fixed-Target Experiment zu?": ("invariant und erhalten", "variant und erhalten", "variant und nicht erhalten", "invariant und nicht erhalten"),
+    "Fixed-Target Experiment: Was trifft auf den Baryonenzahl im Fixed-Target Experiment zu?": ("invariant und erhalten", "variant und erhalten", "variant und nicht erhalten", "invariant und nicht erhalten"),
+    "Fixed-Target Experiment: Was trifft auf die Summe der Ruhemassen im Fixed-Target Experiment zu?": ("invariant und nicht erhalten", "invariant und erhalten", "variant und nicht erhalten", "variant und erhalten"),
 }
 
 
